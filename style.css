@@ -24,9 +24,6 @@
     font-weight: bold;
     font-family: sans-serif;
 }
-.tube {
-    margin: 6px 160px;
-}
 footer{
 	background-color: #666;
 	height: 10vh;
@@ -68,7 +65,7 @@ footer{
 }
 
 			/*Contact*/
-.contact{
+.contact, .live{
     text-align: center;
     padding-top: 50px;
     margin-bottom: 81px;
@@ -138,14 +135,19 @@ footer{
     padding-top: 10%;
     padding-right: 10%;
 }
+			/*Live*/
+.live h2, .othervideos h3 {
+    color: #f00;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+}
+.othervideos {
+    margin-left: 10px;
+}
+
+			/*Mobile*/
+@media only screen and  (max-width : 767px){ 
 
 
-
-
-
-
-
-
-
-
-
+}
