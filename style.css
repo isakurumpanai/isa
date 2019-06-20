@@ -135,6 +135,65 @@ footer{
     padding-top: 10%;
     padding-right: 10%;
 }
+.map h2 {
+    color: #34A853;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+}
+.map {
+    margin-left: 10px;
+}
+.tips p {
+	margin-top: 2%;
+    margin-left: 1%;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+}
+.tips p:first-child span:first-child {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+}
+.tips p:first-child span:nth-child(2) {
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+}
+.tips p:first-child span:nth-child(3) {
+    color: #459e72;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+}
+.tips p:nth-child(2) span:first-child {
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+}
+.tips p:nth-child(2) span:nth-child(2) {
+    color: #ffc107;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+}
+.tips p:nth-child(2) span:nth-child(3) {
+    color: #bbc107;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+}
+.tips {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+
 			/*Live*/
 .live h2, .othervideos h3 {
     color: #f00;
