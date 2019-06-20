@@ -46,12 +46,12 @@ footer{
     line-height: 1em;
     color: #db3236;
 }
-.storyWrap .right {
+.storyWrap .right, .valueWrap .right {
     width: 77%;
     text-align: justify;
     margin: 60px 120px;
 }
-.storyWrap .right p {
+.storyWrap .right p, .valueWrap .right p {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: .025em;
@@ -60,8 +60,25 @@ footer{
     margin-top: 13px;
     font-family: sans-serif;
 }
-.storyWrap .right p+p {
+.storyWrap .right p+p, .valueWrap .right p+p {
     margin: 50px 0 0;
+}
+.valueWrap .heading{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 1em;
+    color: #3cba54;
+}
+.banner {
+    width: 100%;
+}
+.valueWrap {
+    margin-top: 5%;
+}
+.storyWrap, .valueWrap {
+    margin-top: 5%;
 }
 
 			/*Contact*/
