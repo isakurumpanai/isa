@@ -2,14 +2,14 @@
     background-color: #5bc5a7;
 }
 .rounded {
-    width: 25%;
+    width: 20%;
     padding: 4px 13px;
 	text-justify: middle;
 }
 .header a {
 	text-decoration: none;
 	display: inline;
-    font-size: larger;
+    font-size: 24px;
     padding: 13px;
     color: #ffffff;
     font-weight: bold;
